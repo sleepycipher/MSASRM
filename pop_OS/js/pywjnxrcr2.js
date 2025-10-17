@@ -1,2 +1,0 @@
-const trustpilot_trustbox_settings = {"trustboxes":[],"activeTrustbox":0,"pageUrls":{"landing":"https://system76.com","category":"https://system76.com/hidden/plant/switches-factory/","product":"https://system76.com/desktops/thelio-major-r5-n3/configure"}};
-dispatchEvent(new CustomEvent('trustpilotTrustboxSettingsLoaded'));

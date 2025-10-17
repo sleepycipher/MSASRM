@@ -1,2 +1,0 @@
-const transformBodlConsentPayload=n=>{const t=2,o=3,e=4,d=Array.isArray(n)?n:[];return{event_id:crypto&&crypto.randomUUID?crypto.randomUUID():"",functional:d.includes(t),analytics:d.includes(o),advertising:d.includes(e)}},triggerConsentUpdatedEvent=n=>{window.bodlEvents&&window.bodlEvents.consent&&"function"==typeof window.bodlEvents.consent.emitConsentUpdatedEvent&&window.bodlEvents.consent.emitConsentUpdatedEvent(transformBodlConsentPayload(n))};
-//# sourceMappingURL=bodl-consent-32a446f5a681a22e8af09a4ab8f4e4b6deda6487.js.map
