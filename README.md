@@ -1,2 +1,2 @@
-# MSASRM
-Tasks For Microsoft Student Ambassadors SRM
+# Object Detection
+Created a object detector which uses YOLO11 to identufy when there are a set amount of objects in frame to unlock a hidden secret...
